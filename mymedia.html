@@ -57,6 +57,31 @@
                  <td>James.Q Wilson</td>      
             </tr>
         </table>
+        <hr>
+        <h3>Snippet Code</h3>
+        <P>Uses the writeFile method to replace a string in a file. The below code is collected based on my S number. My last second number is 2 so
+            it is collected from nodejs and last number is 9 so 9+9 it is 18. so we need to take 18th code.</P>
+        <Pre>
+            import logging
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+formatter = logging.Formatter('%(asctime)s:%(name)s:%(message)s')
+
+file_handler = logging.FileHandler('sample.log')
+file_handler.setLevel(logging.ERROR)
+file_handler.setFormatter(formatter)
+
+stream_handler = logging.StreamHandler()
+stream_handler.setFormatter(formatter)
+
+logger.addHandler(file_handler)
+logger.addHandler(stream_handler) 
+        </Pre>
+        <a href="https://code.pieces.app/collections/python">Link for Snippet Source</a>
+
+
 
 
         </body>
